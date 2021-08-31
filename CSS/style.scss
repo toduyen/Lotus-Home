@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+$bgimage1: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(3).png";
+$bgimage2: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(4).png";
+$bgimage3: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(5).png";
+$bgimage4: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(6).png";
+$bgimage5: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(7).png";
+$bgimage6: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(8).png";
+$bgimage7: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(9).png";
+$bgimage8: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(10).png";
+$bgimage9: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(11).png";
+$bgimage10: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(12).png";
+$bgimage11: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(13).png";
+
+$fontRamara: 'Ramaraja', serif;
+$fontOxyGen: 'Oxygen', sans-serif;
+$fontCaveat: 'Caveat', cursive;
+
+$colorText1: #20a6dbe8;
+$colorChocolate: chocolate;
+$colorText2: #1C1E52;
+$colorwhite: #F9FAFF;
+$colorText3: #FD8061;
+*
+{
+    box-sizing: border-box;
+    max-height: auto;
+}
+@mixin resetFont {
+    font-style: normal;
+    font-weight: normal;
+}
+@mixin backgroudImage($imageUrl1 , $imageUrl2 , $imageUrl3 , $imageUrl4 , $imageUrl5 , $imageUrl6 , $imageUrl7 , $imageUrl8 , $imageUrl9 , $imageUrl10 , $imageUrl11) 
+{
+    background-image: url($imageUrl1),
+    url($imageUrl2),
+    url($imageUrl3),
+    url($imageUrl4),
+    url($imageUrl5),
+    url($imageUrl6),
+    url($imageUrl7),
+    url($imageUrl8),
+    url($imageUrl9),
+    url($imageUrl10),
+    url($imageUrl11);
+    ;
+}
+@mixin posionBg {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+@function sizeFont($size)
+{
+    @return $size;
+}
+@mixin khichthuocText($w,$h) 
+{
+    width: $w;
+    height: $h;    
+}
+@mixin fontSetUp ($namefont , $weight , $size) {
+    font-family: $namefont;
+    font-weight: $weight;
+    font-size: $size;
+}
+.resetMarginPadding{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+html,body
+{
+    max-width: 1500px;
+    max-height: auto;
+    @extend .resetMarginPadding;
+    @include backgroudImage($bgimage1,$bgimage2,$bgimage3,$bgimage4,$bgimage5,$bgimage6,$bgimage7,$bgimage8,$bgimage9,$bgimage10,$bgimage11);
+    @include posionBg;
+    z-index: 99;
+}
+@media only screen and (min-width: 100px) 
+{ 
+    #desktop
+    {
+        display: none;
+    }
+    #mobile
+    {
+        #LogoPosition
+        {
+            width: 222px;
+            padding: 0px;
+            .logo
+            {
+                margin: 40px 0px 0px 44px;
+                @include khichthuocText(24px, 24px);
+            }
+            .nameshop
+            {
+                margin: 0px 4px 0px 0px;
+                @include khichthuocText(210px,62px );
+                @include resetFont;
+                line-height: 62px;
+                h1
+                {
+                    font-family: $fontRamara;
+                    font-size: sizeFont(36px);
+                    margin: 40px 0px 0px 0px;
+                    color: $colorText1;
+                }
+            }
+        }
+        #MenuCHooice
+        {
+            padding: 0px;
+            margin: 0px 0px 0px 48px;
+            .listMenu2
+            {
+                ul
+                {
+                    margin: 50px 0px 0px 0px;
+                    list-style-type: none;
+                    padding: 0px 0px 0px 0px;
+                    li
+                    {
+                        color: #F9FAFF;
+                        padding: 0px 0px 50px 0px;
+                        @include fontSetUp($fontOxyGen , 600 , 20px);
+                        line-height: 24px;
+                        height: 24px;
+                       &:hover
+                       {
+                            color: $colorText1;
+                            text-decoration: underline;
+                            transition: 0.4s;
+                       }
+                    }
+                }
+            }
+        }
+    }
+    #mobile2
+    {
+        margin: 0px 0px 0px 48px;
+        height: auto;
+        .contentBlock
+        {
+                padding: 0px;
+                #content
+                {
+                    padding: 0px;
+                    margin: 0px;
+                    width: 545px;
+                    h1
+                    {
+                        @include resetFont;
+                        @include fontSetUp($fontOxyGen,900,38px);
+                        text-align: left;
+                        height: auto;
+                        word-wrap: break-word;
+                        margin: 0px 0px 20px 0px;
+                        line-height: 64px;
+                        color: $colorText1;
+                        span
+                        {
+                            @include fontSetUp($fontCaveat,bold,64px);
+                            @include resetFont;
+                            @include khichthuocText(216px,64px);
+                            line-height: 64px;
+                            color: $colorChocolate;
+                        }
+                    }
+                    a
+                    {
+                        @include khichthuocText(167px,4px);
+                        align-items: center;
+                        padding: 8px 24px;
+                        background: $colorText1;
+                        text-decoration: none;
+                        /* elevation20 */
+                        color: #F9FAFF;
+                        box-shadow: 0px 3px 6px rgba(110, 116, 134, 0.24);
+                        border-radius: 100px;
+                        @include fontSetUp($fontOxyGen,800,16px);
+                        @include resetFont;
+                        line-height: 24px;
+                        border: none;
+                    }
+                }
+        }
+    }
+    #QuyenLoi
+    {
+        background-image:  url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(8).png") , 
+        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(9).png") , 
+        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(10).png") ,
+        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(11).png") , 
+        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(12).png") , 
+        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(13).png") ;
+        @include posionBg;
+        height: auto;
+        margin: 0px;
+        .dankhoang
+        {
+            margin: 0px;
+            padding: 0px;
+            .uudai1
+            {
+                padding: 0px 48px 0px 48px;
+                h1
+                {
+                    font-family: $fontCaveat;
+                    color: $colorText2;
+                }
+                .setUpNoiDung
+                {
+                    h2
+                    {
+                        color: $colorText2;
+                        @include fontSetUp($fontOxyGen,600,20px);
+                        display: inline-block;
+                    }
+                    p
+                    {
+                        padding: 20px;
+                        color: $colorText2;
+                        @include fontSetUp($fontOxyGen,500,14px);
+                        text-align: justify;
+                        word-wrap: break-word;
+                        display: inline-block;
+                    }
+                }
+                .setupvoucher
+                {
+                    margin: 0px 20px 0px 20px;
+                    ul
+                    {
+                        list-style-type: none;
+                        padding: 0px;
+                        margin: 0px;
+                        li
+                        {
+                                color: $colorText2;
+                                @include fontSetUp($fontOxyGen,600,12px);
+                        }
+                    }
+                }
+            }
+            .hinhanh
+            {
+                padding: 0px 48px 0px 48px;
+                h1
+                {
+                    font-family: $fontCaveat;
+                    color: #1C1E52;
+                }
+            }
+        }
+    }
+    #ending
+    {
+        p
+        {
+                color: $colorText2;
+                @include fontSetUp($fontOxyGen,600,12px);
+        }
+    }
+}
+@media only screen and (min-width: 542px) {
+    #mobile{
+        #MenuCHooice
+        {
+            .listMenu2
+            {
+                ul
+                {
+                    li
+                    {
+                        color: $colorText2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 869px) {
+   
+    #mobile,#mobile2{display: none;}
+    #desktop
+    {
+        display: block;
+        .navigation
+        {
+            #LogoPosition
+            {
+                width: 222px;
+                padding: 0px;
+                .logo
+                {
+                    margin: 40px 0px 0px 44px;
+                }
+                .nameshop
+                {
+                    margin-left: 4px;
+                    @include resetFont;
+                    h1
+                    {
+                        @include fontSetUp($fontRamara, 0,35px );
+                        color: $colorText2;
+                        margin: 40px 0px 0px 0px;
+                    }
+                }
+            }
+        }
+        #MenuCHooice
+        {
+            width: 193px;
+            padding: 0px;
+            margin-left: 48px;
+            .listMenu
+            {
+                ul
+                {
+                    margin: 46px 0px 0px 0px;
+                    list-style-type: none;
+                    padding-left: 0px;
+                    li
+                    {
+                        @include fontSetUp($fontOxyGen,600,16px );
+                        color: $colorText2;
+                        display: inline-block;
+                    }
+                    .Link2 , .Link3
+                    {
+                        padding-left: 32px;
+                    }
+                }
+            }
+        }
+        #Account
+        {
+          
+            padding: 0px;
+            .listMenu
+            {
+                display: block;
+                ul
+                {
+                    display: none;
+                    margin: 46px 0px 0px 0px;
+                    padding-left: 0px;
+                    li
+                    {
+                        @include fontSetUp($fontOxyGen,600,16px );
+                        padding-left: 34px;
+                        display: inline-block;
+                        color: $colorwhite;
+                    }
+                }
+            }
+        }
+    }
+    #mobile2
+    {
+        display: block;
+        .contentBlock
+        {
+            margin: 146px 0px 0px 48px;
+            #content
+            {
+                h1
+                {
+                    text-align: justify;
+                    color: $colorText2;
+                    span
+                    {
+                        font-family: $fontCaveat;
+                        color: $colorText3;
+                    }
+                }
+                a
+                {
+                    background: $colorText3;
+                    color: $colorwhite;
+                    box-shadow: 0px 3px 6px rgba(110, 116, 134, 0.24);
+                }
+            }
+            #Image
+            {
+                background-image: url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/freshh-connection-unsplash-removebg%201%20(1).png");
+                @include khichthuocText(842px,475px);
+                background-repeat: no-repeat;
+                background-position: bottom right;
+            }
+        }
+    }
+    #QuyenLoi
+    {
+        background-image:  url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(8).png") , 
+        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(9).png") , 
+        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(10).png") ,
+        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(11).png") , 
+        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(12).png") , 
+        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(13).png") ;
+        @include posionBg;
+        height: auto;
+        margin-left: 48px;
+        .dankhoang
+        {
+            margin-left: 48px;
+            padding: 0px;
+            .uudai1
+            {
+                h1
+                {
+                    font-family: $fontCaveat;
+                    color: $colorText3;
+                }
+                .setUpNoiDung
+                {
+                    h2
+                    {
+                        color: $colorText2;
+                        @include fontSetUp($fontOxyGen,600,32px);
+                        display: inline-block;
+                    }
+                    p
+                    {
+                        @include fontSetUp($fontOxyGen,500,18px);
+                        color: $colorText2;
+                        display: inline-block;
+                    }
+                }
+                .setupvoucher
+                {
+                    ul
+                    {
+                        list-style-type: none;
+                        padding: 0px;
+                        margin: 0px;
+                        li
+                        {
+                                color: $colorText2;
+                                @include fontSetUp($fontOxyGen,600,12px);
+                        }
+                    }
+                }
+            }
+            .hinhanh
+            {
+                max-width: 678px; 
+                padding: 0px;
+                max-height: 919px;
+                h1
+                {
+                    font-family: $fontCaveat;
+                    color: $colorText3;
+                }
+            }
+        }
+    }
+    #ending
+    {
+        p
+        {
+            color: $colorText2;
+            @include fontSetUp($fontOxyGen,600,12px);
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) { 
+    #desktop
+    {
+        #Account
+        {
+            .listMenu
+            {
+                ul
+                {
+                    display: block;
+                    li
+                    {
+                        color: $colorwhite;
+                    }
+                }
+            }
+        }
+    }
+}

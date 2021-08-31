@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Ramaraja&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-height: auto;
+}
+
+.resetMarginPadding, html, body {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+html, body {
+  max-width: 1500px;
+  max-height: auto;
+  background-image: url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(3).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(4).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(5).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(6).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(7).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(8).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(9).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(10).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(11).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(12).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(13).png");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: top right;
+  z-index: 99;
+}
+
+@media only screen and (min-width: 100px) {
+  #desktop {
+    display: none;
+  }
+  #mobile #LogoPosition {
+    width: 222px;
+    padding: 0px;
+  }
+  #mobile #LogoPosition .logo {
+    margin: 40px 0px 0px 44px;
+    width: 24px;
+    height: 24px;
+  }
+  #mobile #LogoPosition .nameshop {
+    margin: 0px 4px 0px 0px;
+    width: 210px;
+    height: 62px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 62px;
+  }
+  #mobile #LogoPosition .nameshop h1 {
+    font-family: "Ramaraja", serif;
+    font-size: 36px;
+    margin: 40px 0px 0px 0px;
+    color: #20a6dbe8;
+  }
+  #mobile #MenuCHooice {
+    padding: 0px;
+    margin: 0px 0px 0px 48px;
+  }
+  #mobile #MenuCHooice .listMenu2 ul {
+    margin: 50px 0px 0px 0px;
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+  }
+  #mobile #MenuCHooice .listMenu2 ul li {
+    color: #F9FAFF;
+    padding: 0px 0px 50px 0px;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    height: 24px;
+  }
+  #mobile #MenuCHooice .listMenu2 ul li:hover {
+    color: #20a6dbe8;
+    text-decoration: underline;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #mobile2 {
+    margin: 0px 0px 0px 48px;
+    height: auto;
+  }
+  #mobile2 .contentBlock {
+    padding: 0px;
+  }
+  #mobile2 .contentBlock #content {
+    padding: 0px;
+    margin: 0px;
+    width: 545px;
+  }
+  #mobile2 .contentBlock #content h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 900;
+    font-size: 38px;
+    text-align: left;
+    height: auto;
+    word-wrap: break-word;
+    margin: 0px 0px 20px 0px;
+    line-height: 64px;
+    color: #20a6dbe8;
+  }
+  #mobile2 .contentBlock #content h1 span {
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: normal;
+    width: 216px;
+    height: 64px;
+    line-height: 64px;
+    color: chocolate;
+  }
+  #mobile2 .contentBlock #content a {
+    width: 167px;
+    height: 4px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 8px 24px;
+    background: #20a6dbe8;
+    text-decoration: none;
+    /* elevation20 */
+    color: #F9FAFF;
+    -webkit-box-shadow: 0px 3px 6px rgba(110, 116, 134, 0.24);
+            box-shadow: 0px 3px 6px rgba(110, 116, 134, 0.24);
+    border-radius: 100px;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    border: none;
+  }
+  #QuyenLoi {
+    background-image: url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(8).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(9).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(10).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(11).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(12).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(13).png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: auto;
+    margin: 0px;
+  }
+  #QuyenLoi .dankhoang {
+    margin: 0px;
+    padding: 0px;
+  }
+  #QuyenLoi .dankhoang .uudai1 {
+    padding: 0px 48px 0px 48px;
+  }
+  #QuyenLoi .dankhoang .uudai1 h1 {
+    font-family: "Caveat", cursive;
+    color: #1C1E52;
+  }
+  #QuyenLoi .dankhoang .uudai1 .setUpNoiDung h2 {
+    color: #1C1E52;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+  }
+  #QuyenLoi .dankhoang .uudai1 .setUpNoiDung p {
+    padding: 20px;
+    color: #1C1E52;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: justify;
+    word-wrap: break-word;
+    display: inline-block;
+  }
+  #QuyenLoi .dankhoang .uudai1 .setupvoucher {
+    margin: 0px 20px 0px 20px;
+  }
+  #QuyenLoi .dankhoang .uudai1 .setupvoucher ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  #QuyenLoi .dankhoang .uudai1 .setupvoucher ul li {
+    color: #1C1E52;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  #QuyenLoi .dankhoang .hinhanh {
+    padding: 0px 48px 0px 48px;
+  }
+  #QuyenLoi .dankhoang .hinhanh h1 {
+    font-family: "Caveat", cursive;
+    color: #1C1E52;
+  }
+  #ending p {
+    color: #1C1E52;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .listMenu2 {
+    display: none;
+  }
+  .mobile2:hover .listMenu2 {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 542px) {
+  #mobile #MenuCHooice .listMenu2 ul li {
+    color: #1C1E52;
+  }
+}
+
+@media only screen and (min-width: 869px) {
+  #mobile, #mobile2 {
+    display: none;
+  }
+  #desktop {
+    display: block;
+  }
+  #desktop .navigation #LogoPosition {
+    width: 222px;
+    padding: 0px;
+  }
+  #desktop .navigation #LogoPosition .logo {
+    margin: 40px 0px 0px 44px;
+  }
+  #desktop .navigation #LogoPosition .nameshop {
+    margin-left: 4px;
+    font-style: normal;
+    font-weight: normal;
+  }
+  #desktop .navigation #LogoPosition .nameshop h1 {
+    font-family: "Ramaraja", serif;
+    font-weight: 0;
+    font-size: 35px;
+    color: #1C1E52;
+    margin: 40px 0px 0px 0px;
+  }
+  #desktop #MenuCHooice {
+    width: 193px;
+    padding: 0px;
+    margin-left: 48px;
+  }
+  #desktop #MenuCHooice .listMenu ul {
+    margin: 46px 0px 0px 0px;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  #desktop #MenuCHooice .listMenu ul li {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1C1E52;
+    display: inline-block;
+  }
+  #desktop #MenuCHooice .listMenu ul .Link2, #desktop #MenuCHooice .listMenu ul .Link3 {
+    padding-left: 32px;
+  }
+  #desktop #Account {
+    padding: 0px;
+  }
+  #desktop #Account .listMenu {
+    display: block;
+  }
+  #desktop #Account .listMenu ul {
+    display: none;
+    margin: 46px 0px 0px 0px;
+    padding-left: 0px;
+  }
+  #desktop #Account .listMenu ul li {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 34px;
+    display: inline-block;
+    color: #F9FAFF;
+  }
+  #mobile2 {
+    display: block;
+  }
+  #mobile2 .contentBlock {
+    margin: 146px 0px 0px 48px;
+  }
+  #mobile2 .contentBlock #content h1 {
+    text-align: justify;
+    color: #1C1E52;
+  }
+  #mobile2 .contentBlock #content h1 span {
+    font-family: "Caveat", cursive;
+    color: #FD8061;
+  }
+  #mobile2 .contentBlock #content a {
+    background: #FD8061;
+    color: #F9FAFF;
+    -webkit-box-shadow: 0px 3px 6px rgba(110, 116, 134, 0.24);
+            box-shadow: 0px 3px 6px rgba(110, 116, 134, 0.24);
+  }
+  #mobile2 .contentBlock #Image {
+    background-image: url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/freshh-connection-unsplash-removebg%201%20(1).png");
+    width: 842px;
+    height: 475px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  #QuyenLoi {
+    background-image: url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(8).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(9).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(10).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(11).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(12).png"), url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(13).png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: auto;
+    margin-left: 48px;
+  }
+  #QuyenLoi .dankhoang {
+    margin-left: 48px;
+    padding: 0px;
+  }
+  #QuyenLoi .dankhoang .uudai1 h1 {
+    font-family: "Caveat", cursive;
+    color: #FD8061;
+  }
+  #QuyenLoi .dankhoang .uudai1 .setUpNoiDung h2 {
+    color: #1C1E52;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    display: inline-block;
+  }
+  #QuyenLoi .dankhoang .uudai1 .setUpNoiDung p {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1C1E52;
+    display: inline-block;
+  }
+  #QuyenLoi .dankhoang .uudai1 .setupvoucher ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  #QuyenLoi .dankhoang .uudai1 .setupvoucher ul li {
+    color: #1C1E52;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  #QuyenLoi .dankhoang .hinhanh {
+    max-width: 678px;
+    padding: 0px;
+    max-height: 919px;
+  }
+  #QuyenLoi .dankhoang .hinhanh h1 {
+    font-family: "Caveat", cursive;
+    color: #FD8061;
+  }
+  #ending p {
+    color: #1C1E52;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #desktop #Account .listMenu ul {
+    display: block;
+  }
+  #desktop #Account .listMenu ul li {
+    color: #F9FAFF;
+  }
+}
+/*# sourceMappingURL=style.css.map */

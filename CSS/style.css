@@ -16,7 +16,7 @@
 html, body {
   max-width: 1500px;
   max-height: auto;
-  background-image: url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(3).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(4).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(5).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(6).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(7).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(8).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(9).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(10).png"),url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(11).png"),url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(12).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(13).png");
+  background-image: url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(3).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(4).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(5).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(6).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(7).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(8).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(9).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(10).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(11).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(12).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(13).png");
   background-color: white;
   background-repeat: no-repeat;
   background-position: top right;
@@ -133,7 +133,7 @@ html, body {
     border: none;
   }
   #QuyenLoi {
-    background-image:  url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(8).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(9).png"),url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(10).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(11).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(12).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(13).png");
+    background-image: url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(8).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(9).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(10).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(11).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(12).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(13).png");
     background-color: white;
     background-repeat: no-repeat;
     background-position: top right;
@@ -194,12 +194,6 @@ html, body {
     font-family: "Oxygen", sans-serif;
     font-weight: 600;
     font-size: 12px;
-  }
-  .listMenu2 {
-    display: none;
-  }
-  .mobile2:hover .listMenu2 {
-    display: block;
   }
 }
 
@@ -302,7 +296,7 @@ html, body {
     background-position: bottom right;
   }
   #QuyenLoi {
-    background-image: url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(8).png"),url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(9).png"),url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(10).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(11).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(12).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(13).png");
+    background-image: url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(8).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(9).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(10).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(11).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(12).png"), url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(13).png");
     background-color: white;
     background-repeat: no-repeat;
     background-position: top right;

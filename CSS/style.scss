@@ -2,17 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-$bgimage1: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(3).png";
-$bgimage2: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(4).png";
-$bgimage3: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(5).png";
-$bgimage4: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(6).png";
-$bgimage5: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(7).png";
-$bgimage6: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(8).png";
-$bgimage7: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(9).png";
-$bgimage8: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(10).png";
-$bgimage9: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(11).png";
-$bgimage10: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(12).png";
-$bgimage11: "https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(13).png";
+$bgimage1: "https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(3).png";
+$bgimage2: "https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(4).png";
+$bgimage3: "https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(5).png";
+$bgimage4: "https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(6).png";
+$bgimage5: "https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(7).png";
+$bgimage6: "https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(8).png";
+$bgimage7: "https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(9).png";
+$bgimage8: "https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(10).png";
+$bgimage9: "https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(11).png";
+$bgimage10: "https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(12).png";
+$bgimage11: "https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(13).png";
 
 $fontRamara: 'Ramaraja', serif;
 $fontOxyGen: 'Oxygen', sans-serif;
@@ -193,12 +193,12 @@ html,body
     }
     #QuyenLoi
     {
-        background-image:  url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(8).png") , 
-        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(9).png") , 
-        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(10).png") ,
-        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(11).png") , 
-        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(12).png") , 
-        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(13).png") ;
+        background-image:  url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(8).png") , 
+        url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(9).png") , 
+        url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(10).png") ,
+        url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(11).png") , 
+        url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(12).png") , 
+        url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(13).png") ;
         @include posionBg;
         height: auto;
         margin: 0px;
@@ -391,7 +391,7 @@ html,body
             }
             #Image
             {
-                background-image: url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/freshh-connection-unsplash-removebg%201%20(1).png");
+                background-image: url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/freshh-connection-unsplash-removebg%201%20(1).png");
                 @include khichthuocText(842px,475px);
                 background-repeat: no-repeat;
                 background-position: bottom right;
@@ -400,12 +400,12 @@ html,body
     }
     #QuyenLoi
     {
-        background-image:  url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(8).png") , 
-        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(9).png") , 
-        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(10).png") ,
-        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(11).png") , 
-        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(12).png") , 
-        url("https://toduyen.github.io/Lotus-Project/Img/BACKGROULD/Vector%20(13).png") ;
+        background-image:  url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(8).png") , 
+        url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(9).png") , 
+        url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(10).png") ,
+        url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(11).png") , 
+        url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(12).png") , 
+        url("https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(13).png") ;
         @include posionBg;
         height: auto;
         margin-left: 48px;

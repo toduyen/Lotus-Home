@@ -111,6 +111,11 @@ html,body
                     font-size: sizeFont(36px);
                     margin: 40px 0px 0px 0px;
                     color: $colorText1;
+                    &:hover
+                    {
+                        transform: translateX(20px);
+                        transition: 0.4s;
+                    }
                 }
             }
         }
@@ -134,8 +139,8 @@ html,body
                         height: 24px;
                        &:hover
                        {
+                            transform: translateX(20px);
                             color: $colorText1;
-                            text-decoration: underline;
                             transition: 0.4s;
                        }
                     }
@@ -160,6 +165,7 @@ html,body
                         @include resetFont;
                         @include fontSetUp($fontOxyGen,900,38px);
                         text-align: left;
+                        max-width: 100%;
                         height: auto;
                         word-wrap: break-word;
                         margin: 0px 0px 20px 0px;
@@ -263,10 +269,45 @@ html,body
     }
     #ending
     {
+        background-color: #1C1E52;
+        padding: 40px;
         p
         {
-                color: $colorText2;
+                color: $colorwhite;
                 @include fontSetUp($fontOxyGen,600,12px);
+        }
+    }
+    .itemThongBao1 , .itemThongBao2 , .itemThongBao3
+    {
+        padding: 0px 0px 0px 0px;
+        img
+        {
+            padding: 0px 40px 0px 0px;
+        }
+       h2
+       {
+        @include fontSetUp($fontRoboto,500,18px);
+        color: $colorText2;
+       }
+    }
+    .cauhoithacmac
+    {
+        button
+        {
+            @include fontSetUp($fontRoboto,500,18px);
+            color: $colorText2;
+            text-decoration: none;
+            &:hover
+            {
+                transform: translateX(20px);
+                color: $colorText1;
+                transition: 0.4s;
+            }
+        }
+        p
+        {
+            @include fontSetUp($fontRoboto,500,12px);
+            color: $colorText2;
         }
     }
 }
@@ -467,10 +508,12 @@ html,body
     }
     #ending
     {
+        background-color: white;
+        padding: 40px;
         p
         {
-            color: $colorText2;
-            @include fontSetUp($fontRoboto,600,12px);
+                color: $colorText2;
+                @include fontSetUp($fontOxyGen,600,12px);
         }
     }
 }

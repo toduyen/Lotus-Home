@@ -51,6 +51,12 @@ html, body {
     margin: 40px 0px 0px 0px;
     color: #20a6dbe8;
   }
+  #mobile #LogoPosition .nameshop h1:hover {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
   #mobile #MenuCHooice {
     padding: 0px;
     margin: 0px 0px 0px 48px;
@@ -70,8 +76,9 @@ html, body {
     height: 24px;
   }
   #mobile #MenuCHooice .listMenu2 ul li:hover {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
     color: #20a6dbe8;
-    text-decoration: underline;
     -webkit-transition: 0.4s;
     transition: 0.4s;
   }
@@ -94,6 +101,7 @@ html, body {
     font-weight: 900;
     font-size: 38px;
     text-align: left;
+    max-width: 100%;
     height: auto;
     word-wrap: break-word;
     margin: 0px 0px 20px 0px;
@@ -190,18 +198,49 @@ html, body {
     font-family: "Caveat", cursive;
     color: #1C1E52;
   }
+  #ending {
+    background-color: #1C1E52;
+    padding: 40px;
+  }
   #ending p {
-    color: #1C1E52;
+    color: #F9FAFF;
     font-family: "Oxygen", sans-serif;
     font-weight: 600;
     font-size: 12px;
   }
-  .listMenu2 {
-    display: none;
+  .itemThongBao1, .itemThongBao2, .itemThongBao3 {
+    padding: 0px 0px 0px 0px;
   }
-  .mobile2:hover .listMenu2 {
-    display: block;
+  .itemThongBao1 img, .itemThongBao2 img, .itemThongBao3 img {
+    padding: 0px 40px 0px 0px;
   }
+  .itemThongBao1 h2, .itemThongBao2 h2, .itemThongBao3 h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1C1E52;
+  }
+  .cauhoithacmac button {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1C1E52;
+    text-decoration: none;
+  }
+  .cauhoithacmac button:hover {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+    color: #20a6dbe8;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .cauhoithacmac p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #1C1E52;
+  }
+  .listMenu2 { display: none; } .mobile2:hover .listMenu2 { display: block; }
 }
 
 @media only screen and (min-width: 542px) {
@@ -352,9 +391,13 @@ html, body {
     font-family: "Caveat", cursive;
     color: #FD8061;
   }
+  #ending {
+    background-color: white;
+    padding: 40px;
+  }
   #ending p {
     color: #1C1E52;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Oxygen", sans-serif;
     font-weight: 600;
     font-size: 12px;
   }

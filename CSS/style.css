@@ -246,12 +246,6 @@ html, body {
   .mobile2:hover .listMenu2 {
     display: block;
   }
-  .listMenu2 {
-    display: none;
-  }
-  .mobile2:hover .listMenu2 {
-    display: block;
-  }
 }
 
 @media only screen and (min-width: 542px) {

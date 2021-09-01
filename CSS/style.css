@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Ramaraja&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 * {
   -webkit-box-sizing: border-box;
@@ -153,15 +154,15 @@ html, body {
   }
   #QuyenLoi .dankhoang .uudai1 .setUpNoiDung h2 {
     color: #1C1E52;
-    font-family: "Oxygen", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 600;
     font-size: 20px;
     display: inline-block;
   }
   #QuyenLoi .dankhoang .uudai1 .setUpNoiDung p {
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     color: #1C1E52;
-    font-family: "Oxygen", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 500;
     font-size: 14px;
     text-align: justify;
@@ -178,7 +179,7 @@ html, body {
   }
   #QuyenLoi .dankhoang .uudai1 .setupvoucher ul li {
     color: #1C1E52;
-    font-family: "Oxygen", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 600;
     font-size: 12px;
   }
@@ -319,13 +320,13 @@ html, body {
   }
   #QuyenLoi .dankhoang .uudai1 .setUpNoiDung h2 {
     color: #1C1E52;
-    font-family: "Oxygen", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 600;
     font-size: 32px;
     display: inline-block;
   }
   #QuyenLoi .dankhoang .uudai1 .setUpNoiDung p {
-    font-family: "Oxygen", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: #1C1E52;
@@ -338,7 +339,7 @@ html, body {
   }
   #QuyenLoi .dankhoang .uudai1 .setupvoucher ul li {
     color: #1C1E52;
-    font-family: "Oxygen", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 600;
     font-size: 12px;
   }
@@ -353,7 +354,7 @@ html, body {
   }
   #ending p {
     color: #1C1E52;
-    font-family: "Oxygen", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 600;
     font-size: 12px;
   }

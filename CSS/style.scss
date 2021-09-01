@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 $bgimage1: "https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(3).png";
@@ -17,6 +18,7 @@ $bgimage11: "https://toduyen.github.io/Lotus-Home/Img/BACKGROULD/Vector%20(13).p
 $fontRamara: 'Ramaraja', serif;
 $fontOxyGen: 'Oxygen', sans-serif;
 $fontCaveat: 'Caveat', cursive;
+$fontRoboto: 'Roboto Condensed', sans-serif;
 
 $colorText1: #20a6dbe8;
 $colorChocolate: chocolate;
@@ -219,14 +221,14 @@ html,body
                     h2
                     {
                         color: $colorText2;
-                        @include fontSetUp($fontOxyGen,600,20px);
+                        @include fontSetUp($fontRoboto,600,20px);
                         display: inline-block;
                     }
                     p
                     {
-                        padding: 20px;
+                        padding: 20px 20px 0px 20px;
                         color: $colorText2;
-                        @include fontSetUp($fontOxyGen,500,14px);
+                        @include fontSetUp($fontRoboto,500,14px);
                         text-align: justify;
                         word-wrap: break-word;
                         display: inline-block;
@@ -243,7 +245,7 @@ html,body
                         li
                         {
                                 color: $colorText2;
-                                @include fontSetUp($fontOxyGen,600,12px);
+                                @include fontSetUp($fontRoboto,600,12px);
                         }
                     }
                 }
@@ -425,12 +427,12 @@ html,body
                     h2
                     {
                         color: $colorText2;
-                        @include fontSetUp($fontOxyGen,600,32px);
+                        @include fontSetUp($fontRoboto,600,32px);
                         display: inline-block;
                     }
                     p
                     {
-                        @include fontSetUp($fontOxyGen,500,18px);
+                        @include fontSetUp($fontRoboto,500,18px);
                         color: $colorText2;
                         display: inline-block;
                     }
@@ -445,7 +447,7 @@ html,body
                         li
                         {
                                 color: $colorText2;
-                                @include fontSetUp($fontOxyGen,600,12px);
+                                @include fontSetUp($fontRoboto,600,12px);
                         }
                     }
                 }
@@ -468,7 +470,7 @@ html,body
         p
         {
             color: $colorText2;
-            @include fontSetUp($fontOxyGen,600,12px);
+            @include fontSetUp($fontRoboto,600,12px);
         }
     }
 }

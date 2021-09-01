@@ -299,7 +299,7 @@ html,body
             text-decoration: none;
             &:hover
             {
-                transform: translateX(20px);
+                transform: translateX(30px);
                 color: $colorText1;
                 transition: 0.4s;
             }
@@ -514,39 +514,6 @@ html,body
         {
                 color: $colorText2;
                 @include fontSetUp($fontOxyGen,600,12px);
-        }
-    }
-    #itemThongBao1 , #itemThongBao2 , #itemThongBao3
-    {
-        padding: 0px 0px 0px 0px;
-        img
-        {
-            padding: 0px 40px 0px 0px;
-        }
-        h2
-        {
-            @include fontSetUp($fontRoboto,500,18px);
-            color: $colorText2;
-        }
-    }
-    #cauhoithacmac
-    {
-        button
-        {
-            @include fontSetUp($fontRoboto,500,18px);
-            color: $colorText2;
-            text-decoration: none;
-            &:hover
-            {
-                transform: translateX(20px);
-                color: $colorText1;
-                transition: 0.4s;
-            }
-        }
-        p
-        {
-            @include fontSetUp($fontRoboto,500,12px);
-            color: $colorText2;
         }
     }
 }

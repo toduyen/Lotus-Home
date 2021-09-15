@@ -82,6 +82,18 @@ html, body {
     -webkit-transition: 0.4s;
     transition: 0.4s;
   }
+  #mobile #MenuCHooice .listMenu2 ul .exit {
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    padding-bottom: 0px;
+    color: white;
+    cursor: pointer;
+  }
+  #mobile #MenuCHooice .listMenu2 ul .exit:hover {
+    background-color: white;
+    color: black;
+  }
   #mobile2 {
     margin: 0px 0px 0px 48px;
     height: auto;
@@ -174,6 +186,7 @@ html, body {
     font-weight: 500;
     font-size: 14px;
     text-align: justify;
+    text-justify: inter-word;
     word-wrap: break-word;
     display: inline-block;
   }
@@ -198,6 +211,42 @@ html, body {
     font-family: "Caveat", cursive;
     color: #1C1E52;
   }
+  #QuyenLoi #itemThongBao1, #QuyenLoi #itemThongBao2, #QuyenLoi #itemThongBao3 {
+    padding: 0px 0px 0px 0px;
+  }
+  #QuyenLoi #itemThongBao1 img, #QuyenLoi #itemThongBao2 img, #QuyenLoi #itemThongBao3 img {
+    padding: 0px 40px 0px 0px;
+  }
+  #QuyenLoi #itemThongBao1 h2, #QuyenLoi #itemThongBao2 h2, #QuyenLoi #itemThongBao3 h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1C1E52;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  #QuyenLoi #cauhoithacmac button {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1C1E52;
+    text-decoration: none;
+  }
+  #QuyenLoi #cauhoithacmac button:hover {
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px);
+    color: #20a6dbe8;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  #QuyenLoi #cauhoithacmac p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #1C1E52;
+    text-align: justify;
+    text-justify: inter-word;
+  }
   #ending {
     background-color: #1C1E52;
     padding: 40px;
@@ -208,43 +257,10 @@ html, body {
     font-weight: 600;
     font-size: 12px;
   }
-  #itemThongBao1, #itemThongBao2, #itemThongBao3 {
-    padding: 0px 0px 0px 0px;
-  }
-  #itemThongBao1 img, #itemThongBao2 img, #itemThongBao3 img {
-    padding: 0px 40px 0px 0px;
-  }
-  #itemThongBao1 h2, #itemThongBao2 h2, #itemThongBao3 h2 {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    color: #1C1E52;
-  }
-  #cauhoithacmac button {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    color: #1C1E52;
-    text-decoration: none;
-  }
-  #cauhoithacmac button:hover {
-    -webkit-transform: translateX(30px);
-            transform: translateX(30px);
-    color: #20a6dbe8;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-  }
-  #cauhoithacmac p {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    color: #1C1E52;
-  }
-  .listMenu2 {
+  .listMenu2 { display: none; } .mobile2:hover .listMenu2 { display: block; }
+  .exit:hover .listMenu2
+  {
     display: none;
-  }
-  .mobile2:hover .listMenu2 {
-    display: block;
   }
 }
 
